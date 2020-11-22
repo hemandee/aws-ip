@@ -1,18 +1,22 @@
 <template>
-<w-app>
+<w-app >
   <Header />
-  <Main />
+  <Main class="mb8"/>
+  
+  <Footer />
 </w-app>
 </template>
 
 <script>
 import Main from './components/Main.vue'
 import Header from './components/Header'
+import Footer from './components/Footer.vue'
 export default {
   name: 'App',
   components: {
     Main,
-    Header
+    Header,
+    Footer
   }
 }
 </script>

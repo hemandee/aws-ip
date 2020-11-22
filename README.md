@@ -1,5 +1,11 @@
 # aws-ip
 
+Check out the site at https://hemandee.github.io/aws-ip/
+
+Input IP Address and it will check to see what part of AWS IP Range JSON [file](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html#aws-ip-download) it is in.
+
+
+
 ## Project setup
 ```
 npm install
@@ -19,6 +25,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
